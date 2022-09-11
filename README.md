@@ -11,9 +11,9 @@ It creates posterdown examples for instruction
 `remotes::install_github("brentthorne/posterdown")`.
 
 # YAML options and arguments
-[Betterland](https://github.com/brentthorne/posterdown/wiki/posterdown_betterland)\n
-[Betterreport](https://github.com/brentthorne/posterdown/wiki/posterdown_betterport)
+##[Betterland](https://github.com/brentthorne/posterdown/wiki/posterdown_betterland)
+##[Betterreport](https://github.com/brentthorne/posterdown/wiki/posterdown_betterport)
 
 # Useful sources:
-[Color code](https://htmlcolorcodes.com/)\n
-[Font family](https://www.w3schools.com/cssref/css_websafe_fonts.asp)
+##[Color code](https://htmlcolorcodes.com/)
+##[Font family](https://www.w3schools.com/cssref/css_websafe_fonts.asp)
