@@ -21,3 +21,7 @@ It creates posterdown examples for instruction
 [Color code](https://htmlcolorcodes.com/)
 ##
 [Font family](https://www.w3schools.com/cssref/css_websafe_fonts.asp)
+
+# Package description:
+##
+[PDF file](https://github.com/Gengrui-Zhang/PosterExample/blob/main/posterdown.pdf)
