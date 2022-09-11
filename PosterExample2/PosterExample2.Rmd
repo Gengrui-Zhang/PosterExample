@@ -10,11 +10,15 @@ author:
 affiliation:
   - num: 1
     address: Department of Psychology, University of Southern California
+primary_colour: "#E9E4D4"
 main_findings:
-  - "Make **better posters** with RMarkdown + **posterdown**."
-  - '![](https://raw.githubusercontent.com/brentthorne/posterdown/master/images/betterhexlogo.png){.main_pic}'
-logoleft_name: '![](https://raw.githubusercontent.com/brentthorne/posterdown/master/images/qr-code-black.png){.main-img-left}'
-logoright_name: '![](https://raw.githubusercontent.com/brentthorne/posterdown/master/images/betterhexlogo.png){.main-img-right}'
+  - "Make **better posters** with RMarkdown + *posterdown*."
+  - '![](https://github.com/Gengrui-Zhang/PosterExample/blob/main/gc3_logo.png?raw=true){.main_pic}'
+logoleft_name: '![](https://github.com/Gengrui-Zhang/PosterExample/blob/main/qr_code.png?raw=true){.main-img-left}'
+logoright_name: '![](https://github.com/Gengrui-Zhang/PosterExample/blob/main/usc_logo.png?raw=true){.main-img-right}'
+main_fontfamily: "Special Elite"
+main_textcol: "#F3E8EA"
+main_textsize: "50px"
 output: 
   posterdown::posterdown_betterland:
     self_contained: false
@@ -66,6 +70,13 @@ $$
 
 To reference a citation you can add your `.bib` file to the working directory and name it in the YAML metadata or generate an automated one as done here, then you only need to reference the label value in the `.bib` file. For example this package is built on top of the wonderful {pagedown} package and I will cite it at the end of this sentance using this in the rmd `[@R-pagedown]` [@R-pagedown].
 
+
+```{r r object, include=FALSE}
+mean_g1 <- 50
+```
+
+We can report the mean of group 1 using the reproducible code, $\bar X_{g1} =$ `r mean_g1`. It prints out 15 now. This number would change if we can change the number assigned to `mean_g1`. 
+
 To get a better understanding of how to include features like these please refer to the {posterdown} [wiki](https://github.com/posterdown/wiki).
 
 **_Now on to the results!_**
@@ -82,8 +93,6 @@ plot(x = iris$Sepal.Length, y = iris$Sepal.Width,
      col = iris$Species, pch = 19, xlab = "Sepal Length",
      ylab = "Sepal Width")
 ```
-
-Maybe you want to show off some of that fancy code you spent so much time on to make that figure, well you can do that too! Just use the `echo=TRUE` option in the r code chunk options, Figure \@ref(fig:myprettycode)!
 
 ```{r myprettycode, echo=FALSE,collapse=TRUE, fig.cap='Boxplots, so hot right now!', fig.height=3.5, out.width="80%"}
 #trim whitespace
